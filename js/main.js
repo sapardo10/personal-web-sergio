@@ -1,3 +1,4 @@
+"use strict";
 $(document).ready(function() {
 	// Header Scroll
 	$(window).on('scroll', function() {
@@ -20,13 +21,13 @@ $(document).ready(function() {
 	});
 
 	// Page Scroll
-	var sections = $('section')
+	var sections = $('section'),
 		nav = $('nav[role="navigation"]');
 
 	$(window).on('scroll', function () {
 	  	var cur_pos = $(this).scrollTop();
 	  	sections.each(function() {
-	    	var top = $(this).offset().top - 76
+	    	var top = $(this).offset().top - 76,
 	        	bottom = top + $(this).outerHeight();
 	    	if (cur_pos >= top && cur_pos <= bottom) {
 	      		nav.find('a').removeClass('active');
@@ -84,3 +85,18 @@ $(document).ready(function() {
   });
 
 })(jQuery);
+
+	var habilidades = $("#habilidad");
+function frontEnd(){
+  	alert("se metio a fron!");
+  	return 
+  };
+  function backEnd(){
+  	alert("se metio a back!");
+  };
+  function arquitecto(){
+  	alert("se metio a arquitecto!");
+  };
+  function seguridad(){
+  	alert("se metio a seguridad!");
+  };

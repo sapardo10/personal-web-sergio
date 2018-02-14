@@ -49,7 +49,6 @@ h5 {
 	color: #2d3033;
 	text-transform: uppercase;
 	font-weight: 700;
-	text-align: center;
 }
 .btn {
 	background-color: #3bc492;
@@ -70,6 +69,12 @@ h5 {
 }
 .btn-large {
 	padding: 15px 40px;
+}
+.centered{
+	text-align: center;
+	padding-bottom: 30px;
+	width: 100%;
+	min-width: 200px;
 }
 /* ------------------------------------------------------------------------------
 	Global Styles
