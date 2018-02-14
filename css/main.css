@@ -25,26 +25,31 @@ h1 {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000; 
+    text-align: center;
 }
 h2 {
 	font-size: 40px;
 	color: #2d3033;
+	text-align: center;
 }
 h3 {
 	font-size: 28px;
 	color: #2d3033;
 	font-weight: 300;
+	text-align: center;
 }
 h4 {
 	font-size: 22px;
 	color: #2d3033;
 	font-weight: 400;
+	text-align: center;
 }
 h5 {
 	font-size: 14px;
 	color: #2d3033;
 	text-transform: uppercase;
 	font-weight: 700;
+	text-align: center;
 }
 .btn {
 	background-color: #3bc492;
