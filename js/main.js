@@ -1,3 +1,4 @@
+// Juan Vega: Te recomiendo usar el "global $" al inicio del script para evitar problemas al usar el simbolo $ de JQuery
 "use strict";
 $(document).ready(function() {
 	// Header Scroll
